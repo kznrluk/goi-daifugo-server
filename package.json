@@ -1,0 +1,35 @@
+{
+  "name": "goi-daifugo-server",
+  "version": "1.0.0",
+  "description": "Goi Daifugo Server-side application",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run": "",
+    "watch": "tsc-watch --onSuccess \"node ./build/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kznrluk/goi-daifugo-server.git"
+  },
+  "author": "Kazunari Sasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kznrluk/goi-daifugo-server/issues"
+  },
+  "homepage": "https://github.com/kznrluk/goi-daifugo-server#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-config-airbnb-typescript": "latest",
+    "eslint-plugin-import": "latest",
+    "@types/node": "latest",
+    "eslint": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@types/socket.io": "^2.1.2",
+    "socket.io": "^2.2.0"
+  }
+}

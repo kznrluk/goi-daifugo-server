@@ -1,0 +1,34 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+<script type="application/javascript" src="js/jquery.js"></script>
+<script type="application/javascript" src="js/script.js"></script>
+<p id="isMaster"></p>
+<p id="isOwnTurn">あなたのターンです！</p>
+<form id="setting">
+    <input id="name"><br>
+    <ul id="userList">
+    </ul>
+    語彙<br>
+    <select id="cardNumber" disabled>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3" selected>3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select><br>
+    <div id="cardInput">
+    </div>
+    <button id="start">スタート</button>
+    <button id="ready">Ready</button>
+</form>
+
+<div id="cardSelect">
+</div>
+
+<ul id="layout"></ul>
+
+<div id="staging"></div>
+
+<div id ="selectApprove">
+    <button id="approve">承認</button>
+    <button id="reject">拒否</button>
+</div>
